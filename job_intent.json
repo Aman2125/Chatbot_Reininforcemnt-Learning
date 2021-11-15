@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+     "responses": ["Hi stranger", "Yebo yes, how can I help", "Ey watsupp", "Ekse Hoezit", "Hola", "Hey dude", "You again"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["I am Arya", "My name is Arya", "You can call me Avi for short", "I am Arya, my friends call me Avi", "Arya is my name"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can tell you about India", "I can give you interesting facts about India"]
+      },
+     {"tag": "south_africa_info",
+      "patterns": ["South Africa", "What can you tell me about SA", "SA", "Tell me about SA", "What about SA", "What do you know about SA", "Tell me more about SA", "What can you tell me about South Africa", "Tell me about South Africa", "What about South Africa", "What do you know about South Africa", "Tell me more about South Africa"],
+      "responses": ["South Africa is the southern most country in Africa, it has a population of more than 59million people and covers an area of 1221 037m2. South Africa has 11 official languages. The currency used in ZAR our South African Rand which trades at about 15ZAR per 1USD."]
+      },
+      {"tag": "india_info",
+        "patterns": ["India", "What can you tell me about India", "IN", "Tell me about India", "What about India", "What do you know about India", "Tell me more about India", "What can you tell me about India", "Tell me about India", "What about India", "What do you know about India", "Tell me more about India"],
+        "responses": ["India, country that occupies the greater part of South Asia. Its capital is New Delhi, India's population of more than 1.39 Billion people and covers an area of 3.287 million km². India has 2 official languages (Hindi,English). The currency used is Indian Rupees."]
+        },
+      {"tag": "indian_army_facts",
+       "patterns": ["Indain Armed Forces Facts", "Indian Army Facts", "Give me some facts about Indian Army", "Give me some facts about Indian Army", "Indian Armed Forces Facts", "Indian Armed Forces interesting facts", "Indian Army facts", "Indian Army interesting facts", "Tell me something interesting"],
+       "responses": [
+         "India controls the highest battlefield in the world, the Siachen glacier, at 5000 metres above Mean Sea Level (MSL).",
+         "India has the biggest 'voluntary' army in the world.",
+         "Indian soldiers are considered among the very best in high altitude and mountain warfare:The Indian army’s High Altitude Warfare School (HAWS) is one of the most elite military training centers in the world and is frequented by Special Ops teams from the U.S, U.K & Russia. U.S Special Forces trained at HAWS before their deployment during the invasion of Afghanistan.",
+         "India covertly tested its nuclear arsenal in the early 1970s and late 1990s without the CIA even knowing what was happening.",
+         " Unlike other government organisations and institutions in India, there are no provisions for reservations based on caste or religion.",
+         "The Battle of Longewala was fought in December 1971 between India and Pakistan, in which just 120 Indian Soldiers with 1 jeep mounted M40 recoilless rifle held the fort against 2000 Pakistani soldiers backed by 45 tanks and 1 mobile infantry brigade. Despite being heavily out-numbered, the Indian soldiers held their ground throughout the night and with the help of the Air Force, were able to completely rout the aggressors.",
+         "Operation Rahat (2013) was one of the biggest civilian rescue operations ever carried out in the world.",
+         "The Ezhimala Naval Academy in Kerala is the largest of its kind in Asia.",
+         "The Indian army has a horsed cavalry regiment. It is among one of the last 3 such regiments in the world.",
+         "The Indian Air Force has an out-station base in Tajikistan and is seeking another in Afghanistan.",
+         "The Bailey Bridge is the highest bridge in the world. It is located in the Ladakh valley between Dras and Suru rivers in the Himalayan mountains. It was built by the Indian Army in August 1982.",
+         "The MES and Border Roads Organisation (BRO) are together responsible for the construction and maintenance of some of the most awesome roads and bridges ever to have been built. To name a few, the Khardungla Pass (the highest motorable road in the world), the Magnetic Hill in Leh, etc.",
+         "The Indo Pakistan War of 1971 came to end with the surrender of about 93,000 combatants and officials of the Pakistani Army.",
+         "Many popular celebrities are often awarded honorary ranks in the armed forces.While Sachin Tendulkar has been granted the rank of Honorary Group captain in the I.A.F, M.S Dhoni is an Honorary Lt Col in the Indian Army."
+
+       ]
+      },
+      {"tag": "india_facts",
+        "patterns": ["India Facts", "IN Facts", "Give me some facts about In", "Give me some facts about India", "IN Facts", "IN interesting facts", "India facts", "India interesting facts", "Tell me something interesting"],
+        "responses": [
+          "India, country that occupies the greater part of South Asia. Its capital is New Delhi, built in the 20th century just south of the historic hub of Old Delhi to serve as India’s administrative centre.",
+          "Its government is a constitutional republic that represents a highly diverse population consisting of thousands of ethnic groups and likely hundreds of languages. With roughly one-sixth of the world’s total population, India is the second most populous country, after China.",
+          "It is known from archaeological evidence that a highly sophisticated urbanized culture—the Indus civilization—dominated the northwestern part of the subcontinent from about 2600 to 2000 BCE. From that period on, India functioned as a virtually self-contained political and cultural arena, which gave rise to a distinctive tradition that was associated primarily with Hinduism, the roots of which can largely be traced to the Indus civilization. Other religions, notably Buddhism and Jainism, originated in India—though their presence there is now quite small—and throughout the centuries residents of the subcontinent developed a rich intellectual life in such fields as mathematics, astronomy, architecture, literature, music, and the fine arts.",
+          "It is claimed that the game of chess originated in India some 1,500 years ago. It is said to be based on the 7th-century war game called chaturanga that flourished in northwestern India at the time.",
+          "In terms of purchasing power (comparing economic productivity and standards of living), India is the world's third-largest economy.",
+          "Bollywood is the world's largest producer of films, surpassing Nollywood (Nigerian Cinema) and even Hollywood. On average, Bollywood produces between 1,500-2,000 feature films a year.",
+          "The Indian rupee is a closed currency- there are harsh restrictions on bringing the currency in and out of the country. Visitors must arrive with cash and exchange their money at the airport or bank currency booth, or use an ATM to withdraw rupees once in the country.",
+          "Indian Railways is one of the top employers on the planet. With a staggering 1.4 million employees, India's state-owned railway network operates a huge, extensive network that extends across the country for hundreds of thousands of miles. Each day roughly 23 million passengers are transported on this extensive network.",
+          "Roughly 67 percent of the world’s outsourcing is done in India. The Indian IT industry is valued at US 150- billion.",
+          "India is the second-largest market of newspapers in the world- over 100,000 publications and 1300 million readers.",
+          "Indian cuisine may be the oldest continuously prepared cuisine in known human history. Of course, Indian food varies widely from place to place in the country itself. From the Portuguese-inspired dishes of Goa to the tandoori ovens of the Punjab, there's a wealth of different dishes to discover on a trip to the country.",
+          "Normally, Mumbai's foodservice network known as dabbawallahs delivers over 200,000 lunch boxes by bike and train from home to office daily. Unfortunately, the pandemic has drastically impacted their services- with many students and workers staying at home. In an intricate system, each person receives the correct tiffin box filled with hot food prepared by their family, and in the afternoon the empty boxes are picked up and returned home again. There's even a movie based on the phenomenon, 2013's The Lunchbox.",
+          "Chicken tikka masala has become one of Britain’s national dishes- some say it has overtaken Fish and Chips. Although there are discrepancies about how this favoured curry came to be in the UK- whether it was created in the ’70s by a Bangladeshi chef in Glasgow or simply inspired by butter chicken- the tikka part of the dish originated some 5,000 years ago in India.",
+          "Khari Baoli in Delhi is Asia's largest wholesale spice market. It's been in operation since the 17th century and is named after the street on which it's situated.",
+          "India supports more than 8% of the world's biodiversity, India's raw beauty can be seen from its coastline to its forests."
+        ]
+
+      },
+      {"tag": "indian_flag_facts",
+        "patterns": ["Indian Flag Facts", "IN Flag Facts", "Give me some facts about Indian Flag", "Give me some facts about Flag of India", "IN FlagFacts", "Indian Flag interesting facts", "Indian Flag facts", "Indian Flags interesting facts", "Tell me something interesting"],
+        "responses": [
+          " Indian National Flag was designed by Pingali Venkayya who was a freedom fighter from Andhra Pradesh.",
+          "The Indian flag was adopted on July 22, 1947, just before India received independence from Britain on August 15, 1947", 
+          "The first Indian flag was hoisted on August 7, 1906, at Parsi Bagan Square in Calcutta. It consisted of three horizontal stripes of green, yellow and red.", 
+          "The National Flag of India, by law, is to be made of khadi, a special type of hand-spun cloth of cotton or silk made popular by Mahatma Gandhi.",
+          "The original cloth flag can be made by only one place called the Karnataka Khadi Gramodyoga Samyukta Sangha or KKGSS.  They are the only licensed manufacturer and supplier of the Indian National Flag.", 
+          "The saffron colour represents courage and sacrifice while white colour represents truth, peace and purity. Green colour of the flag denotes prosperity while the Ashok Chakra represents the Laws of Dharma (righteousness)", 
+          "The middle white stripe in the national flag carries the design of an Ashoka Chakra in navy blue colour with 24 equally spaced spokes",
+          "Bhikaji Rustom Cama was the first Indian who raised the flag on foreign soil",
+          "Tenzing Norgay hoisted the Indian national flag on Mount Everest for the first time on 29 May 1953.", 
+          "Before 2002, normal citizens of India were not allowed to hoist the National Flag except on Independence Day and Republic Day. In 2002, Supreme Court of India amended the flag code and gave rights to all citizens to hoist the flag any time as per the flag code", 
+          "As per the flag code, the flag must be hoisted in the day time and there should be no flag or any other symbolic representation above it.",
+          "The Indian flag must never be put on the ground and must never be placed upside down", 
+          "When a foreign dignitary travels in a car provided by the government, the flag should be flown on the right side of the car while the flag of the foreign country should be flown on the left side."
+        ]
+
+      }
+  ]
+}
